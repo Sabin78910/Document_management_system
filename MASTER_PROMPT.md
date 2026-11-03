@@ -60,6 +60,16 @@ For every feature, document:
   50 MB+ scanned PDFs without freezing, accessibility, Nepali/English.
 - **1.1 "Office Conversions & Polish"**: Word ↔ PDF, Excel to PDF, Protect / Unlock, Watermark,
   Extract Images, better OCR accuracy and more language packs.
+- **1.2 "Studio redesign"** (on-device only, no new permissions, no network):
+  - Design system: teal + indigo palette, card-based screens, dark mode by default with a light option,
+    one consistent icon set, motion that respects reduced-motion.
+  - Library: results the user chooses to keep are stored on the device (IndexedDB, never uploaded),
+    with folders, Recent, Favorites and search by name. Removing an item deletes it from the device.
+  - Protect: add an open password to a PDF with AES-256 (PDF 2.0 standard security handler).
+  - Compress preview: show page 1 before and after at the chosen level, and the size, before saving.
+  - Reader with annotations: view a PDF and add highlights, sticky notes and pen ink as real PDF
+    annotations, saved to a new file.
+  - Every screen says plainly that processing happens on this device.
 - **2.0 "AI Document Assistant"**: Summarize, Translate, Chat-with-PDF, smart naming. Off by default,
   explicit consent, on-device wherever feasible.
 
