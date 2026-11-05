@@ -17,7 +17,7 @@ Version 1.0 must include only (both Android and Web):
 7. Fill & Sign PDF
 8. PDF to Image
 9. Local / session job history
-10. Privacy policy + privacy-first design (core tools never silently upload document content; offline-first on Android)
+10. Privacy policy + privacy-first design (core tools never silently upload document content; offline-first on Android and on the web after the first visit)
 
 Do not implement in Version 1.0:
 - PDF to Excel / PowerPoint
@@ -56,7 +56,7 @@ For every feature, document:
 ## Roadmap
 
 - **1.0 "Reliable & Private PDF Basics"**: the nine features above, simultaneous Play Store + Web launch,
-  offline Android, responsive drag-and-drop Web, local (Android) / session (Web) history, privacy policy,
+  offline Android, offline-capable Web (service worker), responsive drag-and-drop Web, local (Android) / session (Web) history, privacy policy,
   50 MB+ scanned PDFs without freezing, accessibility, Nepali/English.
 - **1.1 "Office Conversions & Polish"**: Word ↔ PDF, Excel to PDF, Protect / Unlock, Watermark,
   Extract Images, better OCR accuracy and more language packs.
